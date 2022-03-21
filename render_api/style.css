@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+  margin: 7%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.userName {
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.user-item {
+  position: relative;
+  width: 70%;
+  font-size: 17px;
+  margin: 20px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(236, 236, 236);
+  transform: translateX(14%);
+}
+
+li {
+  margin-left: 40px;
+}
