@@ -1,0 +1,27 @@
+body {
+    position: relative;
+  }
+  img {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .penguin-icon {
+    position: absolute;
+    
+    -moz-transform: scaleX(-1); 
+    -o-transform: scaleX(-1); 
+    -webkit-transform: scaleX(-1); 
+    transform: scaleX(-1);   
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    transform:rotate(-1);
+  }
+  .ground {
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to bottom, rgb(197, 238, 255), rgb(2, 127, 185));
+  }
+  
