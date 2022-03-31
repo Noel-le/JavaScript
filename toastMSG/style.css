@@ -1,0 +1,36 @@
+.toast-button{
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    background-color: none;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+.toast-button:hover{
+    background-color: rgb(136, 241, 159);
+}
+
+.toast-container {
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+  }
+  
+  .toast {
+    opacity: 0;
+    width: 300px;
+    background-color: #0d58fb;
+    color: white;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-weight: 700;
+  }
+  
+  .toast.show {
+    opacity: 1;
+  }
+  
